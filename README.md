@@ -23,6 +23,13 @@ TODO
 
 Web API project is intended to be used as an easy start when building .NET web API's with some nice to have features already configured and coded.   
 
+#### Web API name
+In the top of the `program.cs` file you can find a variable named `apiName`. This controls how the web API is named. This name appears in the Swagger and in the logs. 
+
+To set the Swagger web page title you can change that in the file `SwaggerOptions/ConfigureSwaggerOptions.cs` by changing the title property on line `29`.
+
+#### Logging timestamp
+If you would like to log in the UTC timezone you can comment out the line `46` in the file `program.cs`.
 
 ## Contributing
 
