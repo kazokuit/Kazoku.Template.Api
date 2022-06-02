@@ -13,11 +13,15 @@ API Template project, developed by [Kazoku IT AB](https://kazoku.se).
 - Easy Swagger configuration
 - Improved console logging
 
-## Installation
+## Installation on Windows
+1. Press the button `Use this template`.
+2. Donwload the project to your machine. 
+3. Open the project in your favorite IDE.
+4. Navigate to your project folder with the terminal.
+5. Run the project using `dotnet run` (requires dotnet to be installed on the PC).
 
-#### - Windows
-
-TODO
+#### Resources 
+[Install .NET on Windows](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60))
 
 ## Usage
 
@@ -58,7 +62,6 @@ Can also be found here - [Contributing to this project](https://github.com/kazok
 Recommended the to get going fast:
 
 - Visual Studio 2022
-- Microsoft SQL Server Management Studio 18+
 - Web browser
 
 ## Credits
