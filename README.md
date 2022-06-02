@@ -12,6 +12,7 @@ API Template project, developed by [Kazoku IT AB](https://kazoku.se).
 - API versioning
 - Easy Swagger configuration
 - Improved console logging
+- Health check endpoint
 
 ## Installation on Windows
 1. Press the button `Use this template`.
