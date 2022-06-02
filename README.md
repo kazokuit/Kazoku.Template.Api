@@ -1,2 +1,2 @@
-# api-template
-API Template project, developed by Kazoku IT AB
+# Kazoku Template Web API
+API Template project, developed by Kazoku IT AB.
