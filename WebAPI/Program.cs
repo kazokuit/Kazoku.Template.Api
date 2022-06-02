@@ -42,7 +42,8 @@ builder.Services.AddLogging(options =>
     options.AddSimpleConsole(c =>
     {
         c.TimestampFormat = "[yyyy-MM-dd HH:mm:ss] ";
-        //c.UseUtcTimestamp = true;
+        // Remove comments to use UTC time.
+        //c.UseUtcTimestamp = true; 
     });
 });
 

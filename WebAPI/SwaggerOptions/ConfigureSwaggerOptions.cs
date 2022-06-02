@@ -5,12 +5,23 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace WebApi.SwaggerOptions
 {
+    /// <summary>
+    /// Swagger options class.
+    /// </summary>
     public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     {
         private readonly IApiVersionDescriptionProvider _provider;
 
+        /// <summary>
+        /// Sets provider.
+        /// </summary>
+        /// <param name="provider"></param>
         public ConfigureSwaggerOptions(IApiVersionDescriptionProvider provider) => _provider = provider;
 
+        /// <summary>
+        /// Configure Swagger options.
+        /// </summary>
+        /// <param name="options"></param>
         public void Configure(SwaggerGenOptions options)
         {
             // Adds a Swagger document for each discovered API version.
@@ -21,7 +32,11 @@ namespace WebApi.SwaggerOptions
             }
         }
 
-        ///
+        /// <summary>
+        /// Creates info for API version.
+        /// </summary>
+        /// <param name="description"></param>
+        /// <returns>API info.</returns>
         private static OpenApiInfo CreateInfoForApiVersion(ApiVersionDescription description)
         {
             var info = new OpenApiInfo()
