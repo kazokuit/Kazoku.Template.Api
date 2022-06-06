@@ -5,10 +5,11 @@ namespace WebAPI.Controllers
     /// <summary>
     /// Health controller.
     /// </summary>
+    [ApiController]
     [Produces("application/json")]
     [Route("api/[controller]")]
-    [ApiController]
-    public class HealthController : ControllerBase
+    [ApiVersion("2022-06-01")]
+    public class HealthController : BaseApiController
     {
         private readonly ILogger<HealthController> _logger;
 
