@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "WebAPI": {
+    "Kazoku.Template.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Kazoku.Template.WebApi.SwaggerOptions
+namespace Kazoku.Template.Api.SwaggerOptions
 {
     /// <summary>
     /// Swagger options class.
@@ -41,7 +41,7 @@ namespace Kazoku.Template.WebApi.SwaggerOptions
         {
             var info = new OpenApiInfo()
             {
-                Title = "Web API",
+                Title = "Kazoku.Template.Api",
                 Version = description.ApiVersion.ToString(),
             };
 

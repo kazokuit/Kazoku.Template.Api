@@ -4,12 +4,12 @@ using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Reflection;
-using Kazoku.Template.WebApi.SwaggerOptions;
+using Kazoku.Template.Api.SwaggerOptions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Variables
-string apiName = "Template Web API";
+string apiName = "Kazoku.Template.Api";
 
 // Versioning
 builder.Services.AddApiVersioning(config =>
@@ -81,6 +81,8 @@ app.UseSwaggerUI(options =>
 app.UseAuthorization();
 app.MapControllers();
 app.Logger.LogInformation($"{apiName} is now running.");
+app.Logger.LogInformation($"API Template developed by Kazoku IT AB.");
+app.Logger.LogInformation($"More info can be found here: https://github.com/kazokuit/Kazoku.Template.Api.");
 
 // Running application
 app.Run();
