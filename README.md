@@ -67,4 +67,4 @@ Recommended the to get going fast:
 
 ## Credits
 
-Special thanks to Linda Carlstad It-committee 2018/2019 for creating this website.
+Thanks to all the awesome people working at [Kazoku IT](https://www.kazoku.se/omoss). 
