@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace WebApi.SwaggerOptions
+namespace Kazoku.Template.WebApi.Project.SwaggerOptions
 {
     /// <summary>
     /// Swagger options class.

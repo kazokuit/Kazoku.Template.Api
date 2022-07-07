@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace WebAPI.Controllers
+namespace Kazoku.Template.WebApi.Project.Controllers
 {
     /// <summary>
     /// Health controller.
