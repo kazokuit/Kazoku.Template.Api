@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Kazoku.Template.WebApi.Project.Controllers
+namespace Kazoku.Template.WebApi.Controllers
 {
     /// <summary>
     /// Base API controller.
