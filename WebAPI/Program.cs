@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Reflection;
-using WebApi.SwaggerOptions;
+using Kazoku.Template.WebApi.SwaggerOptions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +14,7 @@ string apiName = "Template Web API";
 // Versioning
 builder.Services.AddApiVersioning(config =>
 {
-    config.DefaultApiVersion = ApiVersion.Parse("2022-04-01");
+    config.DefaultApiVersion = ApiVersion.Parse("2022-06-01");
     config.AssumeDefaultVersionWhenUnspecified = true;
     config.ReportApiVersions = true;
     config.ApiVersionReader = new QueryStringApiVersionReader();
