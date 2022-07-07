@@ -22,7 +22,7 @@ API Template project, developed by [Kazoku IT AB](https://kazoku.se).
 5. Run the project using `dotnet run` (requires dotnet to be installed on the PC).
 
 #### Resources 
-[Install .NET on Windows](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60))
+[Install .NET on Windows](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60)
 
 ## Usage
 
