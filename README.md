@@ -51,7 +51,7 @@ Can also be found here - [Contributing to this project](https://github.com/kazok
 
 #### - Coding
 
-- See the [issue list](https://github.com/kazokuit/Kazoku.Template.Api/issues))
+- See the [issue list](https://github.com/kazokuit/Kazoku.Template.Api/issues)
 - Assign yourself to an issue
 - Open a new branch
 - Create your _beautiful_ code
