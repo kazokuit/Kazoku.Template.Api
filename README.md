@@ -1,6 +1,6 @@
 <p align="center"><img src="https://images.squarespace-cdn.com/content/v1/5befe34ed274cba684adc722/1544732087748-6J4NJEIF55GLLJXPUD54/Kazoku_+Definition+%284%29.png"></p>
 
-# Kazoku Template Web API
+# Kazoku Template Api
 
 ## Description
 
@@ -8,18 +8,17 @@ API Template project, developed by [Kazoku IT AB](https://kazoku.se).
 
 
 ## Features
-
 - API versioning
 - Easy Swagger configuration
 - Improved console logging
 - Health check endpoint
 
 ## Installation on Windows
-1. Press the button `Use this template`.
+1. Press the button `Use this template` and create a repository.
 2. Donwload the project to your machine. 
 3. Open the project in your favorite IDE.
 4. Navigate to your project folder with the terminal.
-5. Run the project using `dotnet run` (requires dotnet to be installed on the PC).
+5. Run the project using `dotnet run` (requires .NET CLI to be installed on the PC).
 
 #### Resources 
 [Install .NET on Windows](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60)
@@ -38,7 +37,7 @@ If you would like to log in the UTC timezone you can comment out the line `46` i
 
 ## Contributing
 
-Can also be found here - [Contributing to this project](https://github.com/kazokuit/Kazoku.Template.WebApi/blob/main/CONTRIBUTING.md)
+Can also be found here - [Contributing to this project](https://github.com/kazokuit/Kazoku.Template.Api/blob/main/CONTRIBUTING.md)
 
 #### - Issues
 
@@ -52,7 +51,7 @@ Can also be found here - [Contributing to this project](https://github.com/kazok
 
 #### - Coding
 
-- See the [issue list](https://github.com/kazokuit/Kazoku.Template.WebApi/issues))
+- See the [issue list](https://github.com/kazokuit/Kazoku.Template.Api/issues))
 - Assign yourself to an issue
 - Open a new branch
 - Create your _beautiful_ code
