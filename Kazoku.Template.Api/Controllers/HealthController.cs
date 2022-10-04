@@ -8,7 +8,7 @@ namespace Kazoku.Template.Api.Controllers
     [ApiController]
     [Produces("application/json")]
     [Route("api/[controller]")]
-    [ApiVersion("2022-06-01")]
+    [ApiVersionNeutral]
     public class HealthController : BaseApiController
     {
         private readonly ILogger<HealthController> _logger;
